@@ -1,0 +1,13 @@
+{
+  "name": "webext.qr.this.page",
+  "version": "1.0.0",
+  "description": "Generate QR code for current open page/tab",
+  "main": "content_script.js",
+  "scripts": {
+    "build": "web-ext build",
+    "dev": "web-ext run",
+    "lint": "web-ext lint"
+  },
+  "author": "Kevin Saanen",
+  "license": "MIT"
+}
